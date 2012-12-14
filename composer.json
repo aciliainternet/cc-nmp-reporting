@@ -1,8 +1,9 @@
 {
     "name": "acilia/cc-nmp-reporting",
     "type": "library",
-    "description": "",
+    "description": "Campaign Commander NMP Reporting API",
     "keywords": ["API", "REST", "web service", "http" ],
+    "license": "MIT",
 
     "authors": [
       {
@@ -19,7 +20,7 @@
     "autoload": {
       "psr-0": { 
         "Acilia\\CampaignCommander\\NmpReporting": ""
-      } 
+      }
     },
     "target-dir": "Acilia/CampaignCommander/NmpReporting"
 }

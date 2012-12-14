@@ -1,0 +1,45 @@
+{
+    "name":"NmpReporting",
+    "apiVersion":"1.0",
+    "base_url":"https://p4apic.emv2.com/apinmpreporting",
+    "description":"Campaign Commander NMP Reporting API",
+    "operations":{
+        "OpenConnection":{
+            "httpMethod":"POST",
+            "uri":"connection",
+            "summary":"This method provides a session token when given valid credentials.",
+            "responseClass":"primitive",
+            "responseType":"primitive",
+            "parameters":{
+                "login":{
+                    "type":"string",
+                    "location":"json",
+                    "required":true
+                },
+                "pwd":{
+                    "type":"string",
+                    "location":"json",
+                    "required":true
+                },
+                "key":{
+                    "type":"string",
+                    "location":"json",
+                    "required":true
+                }
+            }
+        },
+        "CloseConnection":{
+            "httpMethod":"DELETE",
+            "uri":"connection",
+            "summary":"This method terminate the session token",
+            "responseClass":"primitive",
+            "parameters":{
+                "token":{
+                    "location":"header",
+                    "type":"string",
+                    "required":true
+                }
+            }
+        }
+    }
+}
