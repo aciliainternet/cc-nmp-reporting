@@ -1,0 +1,25 @@
+{
+    "name": "acilia/cc-nmp-reporting",
+    "type": "library",
+    "description": "",
+    "keywords": ["API", "REST", "web service", "http" ],
+
+    "authors": [
+      {
+        "name": "David Castello",
+        "email": "dcastello@gmail.com"    
+      }
+    ],
+
+    "require": {
+      "php": ">=5.3.2",
+      "guzzle/guzzle": "*"
+    },
+
+    "autoload": {
+      "psr-0": { 
+        "Acilia\\CampaignCommander\\NmpReporting": ""
+      } 
+    },
+    "target-dir": "Acilia/CampaignCommander/NmpReporting"
+}
