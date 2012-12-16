@@ -1,0 +1,81 @@
+Date: Sun, 16 Dec 2012 18:55:41 GMT 
+Content-Type: application/json;charset=utf-8 
+Connection: close
+Transfer-Encoding: chunked
+
+{
+"sent": [
+    {
+        "nmMessageId": 1518668,
+        "memberUID": null,
+        "name": "El Deseazo - Activación cuenta",
+        "email": "alba-mei@hotmail.es",
+        "requestDate": "2012-12-16 13:51:19.0",
+        "sendDate": "2012-12-16 13:51:19.0",
+        "processDate": "2012-12-16 13:51:19.0"
+    },
+    {
+        "nmMessageId": 1518668,
+        "memberUID": null,
+        "name": "El Deseazo - Activación cuenta",
+        "email": "isabdel07@yahoo.es",
+        "requestDate": "2012-12-16 13:52:02.0",
+        "sendDate": "2012-12-16 13:52:02.0",
+        "processDate": "2012-12-16 13:52:02.0"
+    },
+    {
+        "nmMessageId": 1518668,
+        "memberUID": null,
+        "name": "El Deseazo - Activación cuenta",
+        "email": "megaton999@hotmail.com",
+        "requestDate": "2012-12-16 19:54:23.0",
+        "sendDate": "2012-12-16 19:54:23.0",
+        "processDate": "2012-12-16 19:54:23.0"
+    },
+    {
+        "nmMessageId": 1518668,
+        "memberUID": null,
+        "name": "El Deseazo - Activación cuenta",
+        "email": "rotonia66@hotmail.com",
+        "requestDate": "2012-12-16 13:49:27.0",
+        "sendDate": "2012-12-16 13:49:27.0",
+        "processDate": "2012-12-16 13:49:27.0"
+    },
+    {
+        "nmMessageId": 1518690,
+        "memberUID": null,
+        "name": "El Deseazo - Nuevos mensajes",
+        "email": "administraciopb@agper.cat",
+        "requestDate": "2012-12-16 15:29:53.0",
+        "sendDate": "2012-12-16 15:29:53.0",
+        "processDate": "2012-12-16 15:29:53.0"
+    },
+    {
+        "nmMessageId": 1518668,
+        "memberUID": null,
+        "name": "El Deseazo - Activación cuenta",
+        "email": "miriwel2012@gmail.com",
+        "requestDate": "2012-12-15 20:32:44.0",
+        "sendDate": "2012-12-15 20:32:44.0",
+        "processDate": "2012-12-15 20:32:44.0"
+    },
+    {
+        "nmMessageId": 1518668,
+        "memberUID": null,
+        "name": "El Deseazo - Activación cuenta",
+        "email": "ddelamorena_@hotmail.com",
+        "requestDate": "2012-12-15 22:39:49.0",
+        "sendDate": "2012-12-15 22:39:49.0",
+        "processDate": "2012-12-15 22:39:49.0"
+    },
+    {
+        "nmMessageId": 1518668,
+        "memberUID": null,
+        "name": "El Deseazo - Activación cuenta",
+        "email": "chabel_azteka@hotmail.com",
+        "requestDate": "2012-12-15 22:46:14.0",
+        "sendDate": "2012-12-15 22:46:14.0",
+        "processDate": "2012-12-15 22:46:14.0"
+    }
+]
+}

@@ -8,8 +8,10 @@
             "httpMethod":"POST",
             "uri":"connection",
             "summary":"This method provides a session token when given valid credentials.",
-            "data": {
-                "xmlRoot": { "name" : "connection" }
+            "data":{
+                "xmlRoot":{
+                    "name":"connection"
+                }
             },
             "parameters":{
                 "login":{
@@ -39,6 +41,70 @@
                     "location":"header",
                     "type":"string",
                     "required":true
+                }
+            }
+        },
+        "BounceReport":{
+            "httpMethod":"GET",
+            "uri":"report/bounce",
+            "summary":"This method is used to generate bounce reports in xml and json formats.",
+            "responseClass":"ListBounceReport",
+            "parameters":{
+                "token":{
+                    "location":"header",
+                    "type":"string",
+                    "required":true
+                }
+            }
+        },
+
+        "model":{
+            "ListBounceReport": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "parentClass": "BounceReport"
+                }
+            },
+            "BounceReport":{
+                "type":"object",
+                "properties":{
+                    "name":{
+                        "type":"string",
+                        "location":"json"
+                    },
+                    "nmMessageId":{
+                        "type":"number",
+                        "location":"json"
+                    },
+                    "memberUID":{
+                        "type":"number",
+                        "location":"json"
+                    },
+                    "email":{
+                        "type":"string",
+                        "location":"json"
+                    },
+                    "requestDate":{
+                        "type":"string",
+                        "location":"json"
+                    },
+                    "processDate":{
+                        "type":"string",
+                        "location":"json"
+                    },
+                    "sendDate":{
+                        "type":"string",
+                        "location":"json"
+                    },
+                    "smptErrorCode":{
+                        "type":"number",
+                        "location":"json"
+                    },
+                    "bounceType":{
+                        "type":"number",
+                        "location":"json"
+                    }
                 }
             }
         }
